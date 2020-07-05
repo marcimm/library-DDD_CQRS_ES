@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MMM.Library.Domain.Core\MMM.Library.Domain.Core.csproj" />
+    <ProjectReference Include="..\MMM.Library.Infra.CrossCutting.Logging\MMM.Library.Infra.CrossCutting.Logging.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.7.0" />
+    <PackageReference Include="sendgrid" Version="9.16.0" />
+  </ItemGroup>
+
+</Project>

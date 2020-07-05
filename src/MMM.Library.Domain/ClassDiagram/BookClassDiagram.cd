@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MMM.Library.Domain.Models.Book">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="MMM.Library.Domain.Models.Book.BookFactory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Book.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAADYDAAkAACAAAAAAAgUAAAAQAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Audit" />
+      <Property Name="Category" />
+      <Property Name="Publisher" />
+    </ShowAsAssociation>
+    <Lollipop Position="1.023" />
+  </Class>
+  <Class Name="MMM.Library.Domain.Models.Author" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="MMM.Library.Domain.Core.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.562" />
+        <Point X="3.5" Y="2.014" />
+        <Point X="8" Y="2.014" />
+        <Point X="8" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMM.Library.Domain.Models.Category" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="MMM.Library.Domain.Core.Models.Entity" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.562" />
+        <Point X="3.5" Y="4.375" />
+        <Point X="3.812" Y="4.375" />
+        <Point X="3.812" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAgCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMM.Library.Domain.Models.Publisher" Collapsed="true">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="MMM.Library.Domain.Core.Models.Entity" ManuallyRouted="true">
+      <Path>
+        <Point X="3.5" Y="1.562" />
+        <Point X="3.5" Y="2.014" />
+        <Point X="6.25" Y="2.014" />
+        <Point X="6.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAgAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMM.Library.Domain.Models.Stock" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAAAABAAAAgAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Stock.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MMM.Library.Domain.Core.Models.Entity" Collapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MMM.Library.Domain.Core.Models.AuditEntity" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MMM.Library.Domain.Models.BookAuthor" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAABAgAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Models\BookAuthor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+      <Property Name="Author" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

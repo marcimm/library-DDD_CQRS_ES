@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MMM.Library.Domain.CQRS.Booking">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAABACAAAgAAAAAAAAgAAAIEAAAAQAAACAAAAEA=</HashCode>
+      <FileName>CQRS\Booking.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EBookingStatus" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MMM.Library.Domain.CQRS.BookingItem">
+    <Position X="6" Y="2.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAgCAAAAAAIAEAAAAABAAAAgABAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>CQRS\BookingItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Booking" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MMM.Library.Domain.Core.Models.Entity" Collapsed="true">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="MMM.Library.Domain.CQRS.EBookingStatus" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgQAAIAAAEAAAAAACAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>CQRS\EBookingStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
